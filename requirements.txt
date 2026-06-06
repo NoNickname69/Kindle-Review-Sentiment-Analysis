@@ -1,5 +1,4 @@
 nltk
-spaCy
 ipykernel
 numpy
 pandas

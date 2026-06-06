@@ -121,9 +121,11 @@ Evaluation metrics explored:
 | Logistic Regression | BoW | 83.88% | 0.72 | 0.77 | 0.75 | 0.90 | 0.87 | 0.88 |
 | Naive Bayes | TF-IDF | 60.33% | 0.45 | 0.80 | 0.57 | 0.84 | 0.51 | 0.63 |
 | Naive Bayes | BoW | 59.42% | 0.80 | 0.45 | 0.57 | 0.51 | 0.84 | 0.63 |
-| Logistic Regression | Word2Vec | 33.50% | — | — | — | — | — | — |
+| Logistic Regression | Word2Vec | 60.77% | 0.66 | 0.58 | 0.62 | 0.56 | 0.64 | 0.59 |
+| Random Forest | Word2Vec | 60.87% | 0.66 | 0.59 | 0.62 | 0.56 | 0.64 | 0.60 |
 
 ---
+
 ###
 
 ![Positive reviews](images/output.png)

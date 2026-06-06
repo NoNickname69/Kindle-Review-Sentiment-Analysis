@@ -113,6 +113,29 @@ Evaluation metrics explored:
 
 ---
 
+## Model Comparison
+
+| Model | Embedding | Accuracy | Precision (0) | Recall (0) | F1 (0) | Precision (1) | Recall (1) | F1 (1) |
+|-------|-----------|----------|---------------|------------|--------|---------------|------------|--------|
+| Logistic Regression | TF-IDF | 84.75% | 0.67 | 0.84 | 0.74 | 0.94 | 0.85 | 0.89 |
+| Logistic Regression | BoW | 83.88% | 0.72 | 0.77 | 0.75 | 0.90 | 0.87 | 0.88 |
+| Naive Bayes | TF-IDF | 60.33% | 0.45 | 0.80 | 0.57 | 0.84 | 0.51 | 0.63 |
+| Naive Bayes | BoW | 59.42% | 0.80 | 0.45 | 0.57 | 0.51 | 0.84 | 0.63 |
+| Logistic Regression | Word2Vec | 33.50% | — | — | — | — | — | — |
+
+---
+###
+
+![Positive reviews](images/output.png)
+
+Most used vocabulary for positive reviews
+
+![Negative reviews](images/negative.png)
+
+Most used vocabulary for negative reviews
+
+---
+
 ## Future Improvements
 
 * Deep Learning models (LSTM/BERT)

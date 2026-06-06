@@ -108,9 +108,8 @@ The project compares different NLP embedding methods and evaluates their effecti
 Evaluation metrics explored:
 
 * Accuracy
-* Precision
-* Recall
-* F1-Score
+* Confusion Matrix
+* Classification Report
 
 ---
 

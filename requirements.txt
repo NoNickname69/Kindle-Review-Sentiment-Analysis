@@ -1,0 +1,7 @@
+nltk
+spaCy
+ipykernel
+numpy
+pandas
+gensim
+scikit-learn
